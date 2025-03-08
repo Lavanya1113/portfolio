@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <!-- Navigation Menu (3 Dots) -->
+    <!-- <div class="dropdown text-end p-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="menuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            &#x22EE;
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="menuButton">
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#skills">Skills</a></li>
+            <li><a class="dropdown-item" href="#projects">Projects</a></li>
+            <li><a class="dropdown-item" href="#achievements">Achievements</a></li>
+            <li><a class="dropdown-item" href="#internship">Internship</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+    </div> -->
+     <!-- Left Panel: Introduction -->
+        <aside class="left-panel">
+            <div class="text-start mb-3">
+                <button class="menu-button" type="button" id="menuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#about">About</a></li>
+                    <li><a class="dropdown-item" href="#services">Services</a></li>
+                    <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                    <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                    <li><a class="dropdown-item" href="#achievements">Achievements</a></li>
+                    <li><a class="dropdown-item" href="#internship">Internship</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <img src="photos/photo.jpg" class="rounded-circle" width="150">
+            <h2>Kattula Lavanya</h2>
+            <p>Software Developer | Data Science, AI/ML Enthusiast </p>
+            
+            <div>
+                <a href="https://github.com/Lavanya1113" class="mx-2 text-dark"><i class="fab fa-github fa-1x"></i></a>
+                <a href="https://linkedin.com/in/lavanya-kattula-a32106252" class="mx-2 text-dark"><i class="fab fa-linkedin fa-1x"></i></a>
+                <a href="mailto:kattulalavanya11@gmail.com" class="mx-2 text-dark"><i class="fas fa-envelope fa-1x"></i></a>
+                <a href="https://leetcode.com/u/Lavanya1113/" class="mx-2 text-dark"><i class="fas fa-code fa-1x"></i></a>
+                <!-- <a href="https://youtube.com" class="mx-2 text-dark"><i class="fab fa-youtube fa-1x"></i></a> -->
+            </div>
+        </aside>
+    
+   
+        <main class="right-panel">
+            <!-- About Section -->
+            <section id="about" class="container text-center my-5">
+                <h3>About Me</h3>
+                <img src="photos/full_pic.jpg" alt="Lavanya"  width="150">
+                <p>I am an undergraduate Computer Science student at RGUKT Nuzvid, with a strong foundation in software development and Data science. I have theoretical knowledge in CSE core subjects such 
+                    as DBMS, OS, Data Structures and Algorithms, Computer Networks. I am passionate about coding and problem solving. I solved realtime problems through Leetcode, codingNinjas.
+                    I have done few IBM Data Science with Python from Coursera and completed CS50's django tasks. 
+                    I served as a class representative for 4 semesters through whhich i imporved my Communication skills and leadership qualities.
+                     </p>
+                <a href="https://drive.google.com/uc?export=download&id=1gM9Lr_LnzNe53JzLcGP9f6yPPVv1w51A" class="btn btn-primary" download>Download Resume</a>
+            </section>
+            
+            <!-- Services Section -->
+            <section id="services" class="container text-center my-5">
+                <h3>My knowledge on</h3>
+                <div class="row">
+                    <div class="col-md-4 service-img"><img src="photos/python.jpg" width="100"></div>
+                    <div class="col-md-4 service-img"><img src="photos/webdev.jpg" width="100"></div>
+                    <div class="col-md-4 service-img"><img src="photos/ml.png" width="100"></div>
+                </div>
+            </section>
+            
+            <!-- Skills Section -->
+            <section id="skills" class="container text-center my-5">
+                <h3>Skills</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Programming Languages:</strong> Python, Java, C</li>
+                    <li><strong>Web Technologies:</strong> HTML, CSS, PHP, JavaScript, Bootstrap</li>
+                    <li><strong>Problem Solving Skills:</strong> DSA with Python</li>
+                    <li><strong>Soft Skills:</strong> Communication, Teamwork, Leadership</li>
+                    <li><strong>Technologies:</strong> MySQL, Data Science with Python, GitHub</li>
+                    <li><strong>Coursework:</strong> DBMS, OS, Data Structures, Computer Networks, Theory of Computation</li>
+                </ul>
+            </section>
+
+            
+            <!-- Projects Section -->
+            
+            <!-- <section id="projects" class="container text-center my-5"> 
+                <h2>My Projects</h2>
+                <div class="d-flex overflow-auto">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="photos/transfer_learning.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Transfer Learning - CNN Model (80% Accuracy)</p>
+                            <a href="https://github.com/Lavanya1113/Transfer_learning" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="photos/jobportal.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Job Portal Application using Java, SpringBoot, and PostgreSQL</p>
+                            <a href="https://github.com/Lavanya1113/job-portal-application" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="photos/travel.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Explore Tourism - Responsive Tourism Website using PHP & Bootstrap</p>
+                            <a href="https://github.com/Lavanya1113/Explore-Tourism" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>  -->
+            <section id="projects" class="container text-center my-5">
+                <h2>Projects</h2>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="photos/transfer_learning.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Transfer Learning - CNN Model (80% Accuracy)</p>
+                                <a href="https://github.com/Lavanya1113/Transfer_learning" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="photos/jobportal.png" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Job Portal Application using Java, SpringBoot, and PostgreSQL</p>
+                                <a href="https://github.com/Lavanya1113/job-portal-application" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="photos/travel.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Explore Tourism - Responsive Tourism Website using PHP & Bootstrap</p>
+                                <a href="https://github.com/Lavanya1113/Explore-Tourism" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="photos/handwritten_digits.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Handwritten_digits classification</p>
+                                <a href="https://github.com/Lavanya1113/https://github.com/Lavanya1113/Handwritten_digits" class="btn btn-primary"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+                    
+            <!-- Achievements Section (Carousel for Automatic Sliding) -->
+            <section id="achievements" class="container text-center my-5">
+                <h2>Achievements</h2>
+                <div id="achievementCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card p-4 mx-auto  text-center" style="width: 22rem; border-color: rgb(46, 105, 188); border-width: 2px;">
+                                <img src="photos/NMMS.jpg" class="rounded-circle d-flex justify-content-center mx-auto" width="100">
+                                <p><b>NMMS Scholarship</b></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card p-4 mx-auto" style="width: 22rem;  border-color: rgb(46, 105, 188); border-width: 2px;">
+                                <img src="photos/pratibha.jpg" class="rounded-circle d-flex justify-content-center mx-auto" width="100" >
+                                <p><b>Pratibha Award</b></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card p-4 mx-auto" style="width: 22rem;  border-color: rgb(46, 105, 188); border-width: 2px;">
+                                <img src="photos/IBM.png" class="rounded-circle d-flex justify-content-center mx-auto" width="100">
+                                <p><b>IBM Data Science Professional Certificate</b></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card p-4 mx-auto" style="width: 22rem;  border-color: rgb(46, 105, 188); border-width: 2px;">
+                                <img src="photos/java.jpg" class="rounded-circle d-flex justify-content-center mx-auto" width="100">
+                                <p><b>Java Completion Certificate (Great Learning)</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#achievementCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#achievementCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            
+
+            <!-- Internship Section -->
+            <section id="internship" class="container text-center my-5">
+                <h2>Internship Experience</h2>
+                <p><strong>EDUBOT Software and Services, Vijayawada</strong></p>
+                <p>Completed a 45-day internship focusing on full-stack development with Java. Developed 20+ lab tasks and collaborated with teams to enhance application features.</p>
+            </section>
+            
+            <!-- Contact Section -->
+            <footer id="contact" class="text-center p-3 bg-dark text-white">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:kattulalavanya11@gmail.com" class="text-white">kattulalavanya11@gmail.com</a></p>
+            </footer>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
